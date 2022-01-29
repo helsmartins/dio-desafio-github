@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Tipologia e Variáveis</title>
+</head>
+<body>
+    <header>
+        <h1>Tipologia e Variáveis</h1>
+    </header>
+    <div class="tipologia-variaveis">
+        <p><b>Variáveis:</b> tipos - Numérico</p>
+            <ul>
+                <li>Inteiros: {0, 1, 5, 50, 60, 800...}, {-58, -50, -49, -32, -10, -5....}/li>
+                <li>Reais: {5.95, 9.54, -8.8, -0,555....}, {0, 1, 5, 50, 60, 800...}</li>
+            </ul>
+            <p><b>Variáveis:</b> tipos - Caracteres</p>
+            <ul>
+                <li>É representado por números, letras , símbolos etc...</li>
+            </ul>
+        <p><b>Variáveis:</b> tipos - Lógico(booleano)</p>
+            <ul>
+                <li>Verdadeiro - 1</li>
+                <li>Falso - 0</li>
+            </ul>
+        <p><b>Característica de uma variável</b></p>
+            <ul>
+                <li>Incerto</li>
+                <li>Mutável</li>
+                <li>Possui variações</li>
+                <li>Instável</li>
+                <li>Inconstante</li>
+                
+            </ul>
+            <p>Ela pode assumir qualquer um dos valores de determinado conjunto de valores</p>
+                <ul>
+                    <li>a - b = d</li>
+                    <li>a + b = c</li>
+                </ul>
+            <p><b>Regras para definir uma variável</b></p>
+                <ul>
+                    <li>Atribuição de um ou mais caracteres (palavras)</li>
+                    <li>Primeira letra - evitar números</li>
+                    <li>Sem espaços em branco</li>
+                    <li> Não usar  palavras reservadas</li>
+                    <li>Caracteres e números</li>
+                </ul>
+            <p><b>Constante:</b> Ela é inalterável, não varia, fixo e estável</p>
+                <ul>
+                    <li>&#8508; pi = 3,1415</li> 
+                    <li>&#934; phi = 1,618</li>
+                </ul>
+
+    </div>
+    <div class="instrucoes-primitivas">
+        <h2>Instruções Primitivas</h2>
+        <p><b>Cálculo matemático</b></p>
+            <ul>
+                <li>Variáveis</li>
+                <li>Constantes</li>
+            </ul>
+        <p>Operadores são classificados como operadores: <b>Unário</b> e <b>Binário</b></p>
+        <p>O binário precisa de duas variáveis ou uma variável e uma constante( 2 objeto) </p>
+        <p><b>Definição de Instruções:</b> são linguagem de palavras- chave (vocabulário) de uma determinada linguagem de programação que tem por finalidade comandar um computador que irá tratar dos dados</p>
+        <P><b>Exemplo: Média Escolar</b></P>
+        <p>Inicio programa</p>            
+        <p>Nota1 = 5</p>
+        <p>Nota2 = 8</p>
+        <p>Resultado = 0</p>
+        <p>Resultado = (Nota1 + Nota2)/2</p>
+        <p>Escreva resultado</p>
+        <p>Fim programa</p>
+        <p>Saída = 6,5</p>
+
+        <p><b>Média com aprovado ou reprovado</b></p>
+        <p>Inicio programa</p>            
+        <p>Nota1 = 5</p>
+        <p>Nota2 = 8</p>
+        <p>Resultado = 0</p>
+        <p>Resultado = (Nota1 + Nota2)/2</p>
+            se resultado >= 6<br/>
+            escreva "Aprovado"<br/>
+            senão<br>
+            escreva "reprovado"<br/>
+        <p>Escreva resultado</p>
+        <p>Fim programa</p>
+        
+    </div>
+    <div class="estrutura-condicionais-operadores">
+        <h2>Estruturas condicionais e operadores</h2>
+        <p>Tipos de estrutura condicional </p>
+            <ul>
+                <li>Simples: condição &#10149; operação</li>
+                <li>Composta: condição &#10149; operação &#10149; exceção</li>
+                <li>Encadeada: condição &#10149; operação &#10149; condição &#10149; operação &#10149; exceção</li>
+            </ul>
+            <p><b>Exemplo condição simples</b></p>
+                <ul>
+                    Inicio programa:<br/>
+                    A = 0<br/>
+                    B = 0<br/>
+                    C = 0<br/>
+                    leia A<br/>
+                    leia B<br/>
+                    X = A + B<br/>
+                    se (X > 10)<br/>
+                    escreva X<br/>
+                    Fim se<br/>
+                    Fim programa<br/>
+                </ul>
+            <p><b>Exemplo condicional composta</b></p>
+                <ul>
+                    Inicio programa:<br/>
+                    A = 0<br/>
+                    B = 0<br/>
+                    C = 0<br/>
+                    leia A<br/>
+                    leia B<br/>
+                    X = A + B<br/>
+                    se (X >= 10)<br/>
+                        X = X - 7<br/>
+                    senão<br/>
+                        X = X + 5<br/>
+                    escreva X<br/>
+                    Fim se<br/>
+                    Fim programa<br/>
+                </ul>
+            <p><b>Condicional Encadeada</b></p>
+                <ul>
+                    Inicio programa:<br/>
+                    A = 0<br/>
+                    B = 0<br/>
+                    C = 0<br/>
+                    leia A<br/>
+                    leia B<br/>
+                    X = A + B<br/>
+                    se (X > 10) então<br/>
+                        se (X < 50) então<br/>
+                        X = X - 7<br/>
+                    senão<br/>
+                        X = X + 5<br/>
+                    escreva X<br/>
+                    Fim se<br/>
+                    Fim programa<br/> 
+                </ul>
+            <p><b>Operadores Lógicos</b></p>
+                <ul>
+                    <li>Verificação de V ou F</li>
+                    <li>Substituição (encadeamento de condições)</li>
+                
+                </ul>
+            <p>Condição verdadeira do operador And ('E')</p>
+                <ul>
+                    <li>todas devem ser satisfeitas</li>
+                </ul>
+            <p>Condição verdadeira do operador OR ('ou')</p>
+                <ul>
+                    <li>Apenas uma das condiçõesdeve ser verdadeira</li>
+                </ul>
+            <p>Operador de Negação NOT ('não')</p>
+                <ul>
+                    <li>Inversão do resultado lógico</li>
+                </ul>
+    </div>
+    <div class="estrutura-repeticao">
+        <p><b>Estrutura de repetição</b></p>
+        <p>O que é estrutura de repeticao?</p>
+            <ul>
+                <li>Controle de fluxo</li>
+                <li>Laços</li>
+                <li>Malhas de repetição</li>
+                <li>Loop</li>
+                <li>Repetição</li>
+            </ul>
+        <p>Condições de parada</p>
+            <ul>
+                <li>Número de repetições pre fixada</li>
+                <li>Condição a ser satisfeita</li>
+            </ul>
+        <p>Qual a vantagem de uma estrutura de repeticao?</p>
+            <ul>
+                <li>Redução de linhas</li>
+                <li>Compreensão facilitada</li>
+                <li>Redução de erros</li>
+            </ul>
+        <p>Tipos de repetições</p>
+            <ul>
+                <li>Enquanto ... faça</li>
+                <li>Repita ... até</li>
+                <li>Para ... de ... até ... faça</li>
+                Pode ser usada estruturas de repetição uma dentro da outra!
+            </ul>
+            
+    </div>
+    <div class="vetores-matrizes">
+        <p><b>Vetores e Matrizes</b> - Um vetor é caracterizado por uma variável dimensiona com tamanho pré-fixado.</p>
+        <p>Matriz é uma tabela organizada em linhas e colunas no formato <b>m</b> x <b>n</b>, onde m representa o número de linhas (horizontal) e <b>n</b> o número de colunas (vertical).</p>
+        <p><b>Matrizes</b>-tipo de estrutura homogênia</p>
+            <ul>
+                <li>Coleção de variáveis</li>
+                <li>Contiguas em memória</li>
+                <li>Índices</li>
+            </ul>
+    </div>
+    <div class="funçoes">
+        <p><b>O que são funções</b> - são blocos de instruções que realizam tarefas específicas</p>
+        <p>conceitos de função</p>
+            <ul>
+                <li>Bloco</li>
+                <li>Subprograma</li>
+                <li>Sub-rotina</li>
+                <li>Método</li>
+                <li>Subalgoritimo</li>
+                <li>Função</li>
+            </ul>
+        <p>Similar ao conceito de função matemática (f: A -> B)</p>
+        <p>Uma função tem:</p>
+            <ul>
+               <li>Definição</li> 
+               <li>Nome</li> 
+               <li>Invocação</li> 
+               <li>Variável local</li> 
+            </ul>
+        <p>São blocos de instruções (código), identificados por <b>nomes</b> e <b>parâmentros</b></p>
+        <p><b>Exemplo</b></p>
+        funcao mediaescolar(nota1, nota2)<br/>
+        resultado = 0<br/>
+        resultado = (nota1 + nota2) /2<br/>
+        retorne resultado<br/>
+    </div>
+    <div class="entrada-saida">
+        <p><b>Instruções de entrada e saída</b></p>
+        <p>Consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos etc</p>
+        <p>Existem dois tipos de saídas dentro de um programa (algoritimo) </p>
+            <ul>
+                <li>Saída programada - COndicional, incondicional</li>
+                <li>Saída por interrupção - definida pelo periférico</li>
+            </ul>
+            <p>Possíveis casos de saída na programção</p>
+                <ul>
+                    <li>Bem sucedida</li>
+                    <li>Erro de sintaxe ou outro</li>
+                    <li>Erros de programação</li>
+                    <li>Problemas com a interface</li>
+                </ul>
+    </div>
+    
+</body>
+</html>

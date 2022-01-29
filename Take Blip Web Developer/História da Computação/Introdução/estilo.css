@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    background-color: rgb(0, 110, 255);
+    color: #fff;
+    border-radius: 5px;
+    width: 700px;
+    text-align: center;
+}
+.introdução{
+    background-color: yellow;
+    width: 920px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 10px;
+}
+.berco-da-computacao{
+    background-color:#fff;
+    width: 920px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.instrumento-computacional{
+    background-color:chartreuse;
+    width: 920px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.primeiros-computadores{
+    background-color:brown;
+    width: 920px;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.era-dos-computadores-pessoais{
+    background-color:aqua;
+    width: 920px;
+    border-radius: 10px;
+    padding: 10px;
+}
